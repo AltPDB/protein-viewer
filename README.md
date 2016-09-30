@@ -2,7 +2,7 @@
 ## An immersive VR environment for viewing and discussing complex biological proteins ##
 ### Version 0.1 - Demo environment
 
-Developed by Steven Vergenz with Tom Skillman
+Initial development (MVP) by Steven Vergenz with Tom Skillman
 
 ## Application:
 
