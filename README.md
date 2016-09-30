@@ -1,8 +1,8 @@
-# MolVR: A protein-viewer *DRAFT*
+# AltPDB: A protein-viewer 
 ## An immersive VR environment for viewing and discussing complex biological proteins ##
 ### Version 0.1 - Demo environment
 
-Developed by Tom Skillman and Steven Vergenz
+Developed by Steven Vergenz with Tom Skillman
 
 ## Application:
 
@@ -22,21 +22,10 @@ You can run this demo yourself and explore proteins, or you can sign up for full
 
 ## Application Implementation:
 
-*Steven - I thought you might want to enhance this section to explain the key aspects of how your app works, but it is totally up to you whether or not you want to.*
-
 This AltspaceVR application is coded in javascript, making use of the three.js and altspace.js libraries. It loads protein atom-and-bond models from a ".pdb" formated file, along with corresponding ".obj/.mtl" ribbon model files for those proteins. The pdb files come from the excellent Protein Data Bank (http://www.rcsb.org/). The obj/mtl files were generate using the excellent Visual Molecular Dynamics tool (http://www.ks.uiuc.edu/Research/vmd/).
 
 The pdb file is read to create the atom-and-bond model. The protein models are loaded, scaled, translated, and rotated as needed to fit the VR room and to be oriented in a biologically understandable way. 
 
 A VR enclosure is created and the model is rendered. The type of viewing hardware that is being used by a guest is identified and the rendering mode is adjusted to enable the largest possible number of viewing platforms.
 
-A User Interface (UI) is available to the host of the MolVR application, the person who creates the AltspaceVR room and shares its URL address with other guests.  The UI enables selection of different PDB proteins, and whether to display the structure (ribbon) or bond (atom-and-bonds) view. There is a web browser embedded in the room so that you can access other related reference materials without leaving VR.
-
-## Future Plans 
-*Steven, Do we want to map this out or not?  It could be our near-term (post Altspace funding) goals, or we could map out a long-term "ideal user scenario" that could focus contributing work for some time to come. Your thoughts?*
-
-* item 1
-* item 2
-  * item 2a
-  * item 2b
-  
+A User Interface (UI) is available to the host of the AltPDB application, the person who creates the AltspaceVR room and shares its URL address with other guests.  The UI enables selection of different PDB proteins, and whether to display the structure (ribbon) or bond (atom-and-bonds) view. There is a web browser embedded in the room so that you can access other related reference materials without leaving VR.
