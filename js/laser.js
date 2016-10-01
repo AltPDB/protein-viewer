@@ -24,7 +24,7 @@ function createLaser (data) {
     laserVisibilityBehavior
   );
   scene.add(laserContainer);
-
+ 
   var laserObj = new THREE.Mesh(
     new THREE.BoxGeometry(0.01, 0.01, 5),
     new THREE.MeshBasicMaterial({color: 'red'})
