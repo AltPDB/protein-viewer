@@ -1,3 +1,5 @@
+// This code was written by Brian Peiris from AltspaceVR.  It has not yet been integrated into this application.
+
 var Object3DSync = altspace.utilities.behaviors.Object3DSync;
 var SteamVRInputBehavior = altspace.utilities.behaviors.SteamVRInput;
 var SteamVRTrackedObjectBehavior = altspace.utilities.behaviors.SteamVRTrackedObject;
